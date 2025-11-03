@@ -1,0 +1,38 @@
+<signatures>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="PackageSignature">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/TR/xmldsig-core#rsa-sha1"/>
+      <Reference URI="#PackageContents">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <DigestValue>v6mC0ThPQSLfubcV80cQsRWrYJYtRaU8yDHEXNU4uHQ=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue Id="PackageSignatureValue">JQ0tgVH64Une+iX2W/P4nIZZm0HjlqJkpbqAGqR5S4+qdTU6zCPJ5kFEDA6lNVYVdJJX7H80ZKne
+QDrE6BCcV+86aamQNyIPpsf0453kSm/dvguQA3uUby8rPIRY3qSPz7jxQCBboooJz44cq2TQmak4
+6wl+08qIJYJ7iGyqjRA=</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>MIICHDCCAYSgAwIBAgIbLTNhN2Y4YWYyOjE4Y2E2MWNjMjU2Oi04MDAwMA0GCSqGSIb3DQEBBQUA
+MDoxCzAJBgNVBAYTAlVBMQ0wCwYDVQQKEwRFTURTMQ0wCwYDVQQLEwRFTURTMQ0wCwYDVQQDEwRF
+cmljMB4XDTIzMTIyNTEyMzIzMVoXDTI4MTIyNjEyMzIzMVowOjELMAkGA1UEBhMCVUExDTALBgNV
+BAoTBEVNRFMxDTALBgNVBAsTBEVNRFMxDTALBgNVBAMTBEVyaWMwgZ8wDQYJKoZIhvcNAQEBBQAD
+gY0AMIGJAoGBAIvI7/UHDrWS6MNlVc3HddyfdQ6x0AXfqwpm8HRz6eQVJz/u8tnFgFPxAXAKTqUX
+UkdyqCl0SCw80xlKPI7ui2ndArJST8mLp1H+wL4cb/2XsGksROLKHjGVXvNFHZ1utn6slIA0qLTm
+Z0TQoqIvL/JvxRRMsxEQBxeN1oH8zzcJAgMBAAGjFzAVMBMGA1UdJQQMMAoGCCsGAQUFBwMDMA0G
+CSqGSIb3DQEBBQUAA4IAgQBKUEbIMWRDOnjpq+eFPa9UKG/i7lhf9fePygjVFcY3cOhxGqHOrVvD
+yVhU4/+cF9kSveIqGQBL4NWnt4eTWMlO1LOP7AZR4kcoRjlbk+u0qHn6s1kZQvTvfXfSeV9gx8vk
+8Lxd2NOW+Zgsk8ry856S0pidX0Ndd+wBNVehhJovmQ==</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+    <Object>
+      <Manifest Id="PackageContents">
+        <Reference URI="mimetype"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>0/oCb84THKMagtI0Dy0KogEu92TegdesqRr/clXct1c=</DigestValue></Reference><Reference URI="META-INF/AIR/application.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>EMVck/u15kWFCkBY+BxLIacg6mPn3RZMWY/iEGCCgpc=</DigestValue></Reference><Reference URI="小眼睛看名畫.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>RIshMhfwDuGUVAIbLu+AdKEcH6PKALGbhM7ALJ8HM90=</DigestValue></Reference>
+      </Manifest>
+    </Object>
+    
+  </Signature>
+</signatures>
