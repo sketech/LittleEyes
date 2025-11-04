@@ -198,15 +198,15 @@
 			for(var i:int=0; i< _length ; i++){
 				/*_array[i].buttonMode = true;
 				_array[i].mouseChildren = false*/
-				//_array[i].addEventListener(MouseEvent.CLICK,MouseEventHandle);
-				_array[i].addEventListener(TouchEvent.TOUCH_BEGIN, TouchDownHandler); 
+				_array[i].addEventListener(MouseEvent.CLICK,MouseEventHandle);
+				//_array[i].addEventListener(TouchEvent.TOUCH_BEGIN, TouchDownHandler); 
 			}
 		}
 		private function RemoveEvent(_array:Array):void{
 			var _length:int=_array.length;
 			for(var i:int=0; i< _length ; i++){
-				//_array[i].removeEventListener(MouseEvent.CLICK,MouseEventHandle);
-				_array[i].removeEventListener(TouchEvent.TOUCH_BEGIN, TouchDownHandler); 
+				_array[i].removeEventListener(MouseEvent.CLICK,MouseEventHandle);
+				//_array[i].removeEventListener(TouchEvent.TOUCH_BEGIN, TouchDownHandler); 
 			}
 		}
 		

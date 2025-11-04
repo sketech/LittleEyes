@@ -49,13 +49,13 @@
 		}
 		private function Init():void
 		{	
-			Mouse.hide();
+			//Mouse.hide();
 			//removeEventListener(Event.ADDED_TO_STAGE, Init);
 			stage.nativeWindow.alwaysInFront = true;
 		    stage.align=StageAlign.TOP_LEFT;
 			stage.scaleMode=StageScaleMode.NO_SCALE;
 			stage.displayState = StageDisplayState.FULL_SCREEN_INTERACTIVE; 
-			Multitouch.inputMode = MultitouchInputMode.TOUCH_POINT; 
+			//Multitouch.inputMode = MultitouchInputMode.TOUCH_POINT; 
 			//stage.displayState = StageDisplayState.NORMAL; 
 			/*ScreenShowTimer.addEventListener(TimerEvent.TIMER, ScreenShowTimerEven);
 			ScreenShowTimer.start();*/
@@ -228,8 +228,8 @@
 		//*************************
 		//*******  Opening *******
 		private function CreatOpening1():void{
-			MyBgMc.addEventListener(TouchEvent.TOUCH_BEGIN, TouchDownHandler); 
-			
+			//MyBgMc.addEventListener(TouchEvent.TOUCH_BEGIN, TouchDownHandler); 
+			MyBgMc.addEventListener(MouseEvent.MOUSE_DOWN, mouseDownHandler);		
 		}
 		private function CreatOpening():void{
 			myOpening = new MyPlayer(1920,1080,"Resources//Opening//Opening.mp4",true,true);
@@ -237,8 +237,8 @@
 			//OpeningMc.addChild(myOpening);
 			myOpening.x=myOpening.y=0;
 			myOpening.Play();
-			//myOpening.addEventListener(MouseEvent.MOUSE_DOWN, mouseDownHandler);		
-			myOpening.addEventListener(TouchEvent.TOUCH_BEGIN, TouchDownHandler); 
+			myOpening.addEventListener(MouseEvent.MOUSE_DOWN, mouseDownHandler);		
+			//myOpening.addEventListener(TouchEvent.TOUCH_BEGIN, TouchDownHandler); 
 			this.addChild(myOpening);
 			
 			State=0;
@@ -287,9 +287,7 @@
 		private function mouseDownHandler(event:MouseEvent):void {
 			if(!ButtonUtil.SetBrightness(DisplayObject(event.target))) return;
 			
-			myOpening.removeEventListener(MyEvent.OBJECK_CLICK, Object3D_Click);
-			trace("mouseDownHandler click..." );
-			myOpening.Pause();
+			MyBgMc.stop();
 			//Step1In();
 			Step_Init(1);
         }
