@@ -8,12 +8,12 @@
           <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
         </Transforms>
         <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-        <DigestValue>BWw0AidjQRTqUaxYS8A+7Xrje7pv9UCTbLNA/hmaRG0=</DigestValue>
+        <DigestValue>KVQhBOKJYzEIA0WYZq4vq194XMXS4n+wAO8wlo//d/8=</DigestValue>
       </Reference>
     </SignedInfo>
-    <SignatureValue Id="PackageSignatureValue">XvaARE7oF4PvCkY7w9AcE1KQ+3J61SqmDrU4CWAkAy0CBR/E+xpGLY5tLkNVE7DtaHk8FhaU9uQi
-zIcu632TTrJMuxM68IwPVa2D2ZzKuiu3w3LiS2xcj+50Cp3glYMzkjXDDUrB3uM74WBAnqwo3xtT
-Ot5UFCSUVncDN73QEzA=</SignatureValue>
+    <SignatureValue Id="PackageSignatureValue">A2h0y+POUSLs3fNytiH97GPMotedgL+uWyCGJJ3UYJGN4K2cIXxGrXGZzJfulcZTZmcvEOT5OoJK
+58O+PHfz2+I/iFTcTFlHwHOJetBJg5ALOvNWnXACEUus/vYNxjrvBn/AzUKfNIYBuSgJDQq3NZf9
+7jaT9KYVzr29/GOpvKA=</SignatureValue>
     <KeyInfo>
       <X509Data>
         <X509Certificate>MIICHDCCAYSgAwIBAgIbLTNhN2Y4YWYyOjE4Y2E2MWNjMjU2Oi04MDAwMA0GCSqGSIb3DQEBBQUA
@@ -30,7 +30,7 @@ yVhU4/+cF9kSveIqGQBL4NWnt4eTWMlO1LOP7AZR4kcoRjlbk+u0qHn6s1kZQvTvfXfSeV9gx8vk
     </KeyInfo>
     <Object>
       <Manifest Id="PackageContents">
-        <Reference URI="mimetype"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>0/oCb84THKMagtI0Dy0KogEu92TegdesqRr/clXct1c=</DigestValue></Reference><Reference URI="META-INF/AIR/application.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>RGFMdNHrkfFMSRadkm/g/xsAstM9E8aB33NMS42Hjzc=</DigestValue></Reference><Reference URI="background.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>el4ir75u6GFmHE6RCdLGTKxhOW5+xx2H93QvVUUFNK8=</DigestValue></Reference><Reference URI="cancel.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>YXZ1LIpvE/LFmofZDQLf8FBBkdmc6TgCXESApv8vX04=</DigestValue></Reference><Reference URI="Click.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>cdz0uc8xqd/PcxjezGI1uFbbl1liLUibO0HjFFAmYAA=</DigestValue></Reference><Reference URI="Ok.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>mXH/SwiFuxDy6G6fvMiHW6w3I3lhQiS8sQViR5134SI=</DigestValue></Reference><Reference URI="小眼睛看名畫.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>5QT8ktCQm7voLY9cMtn7CL5Zm7ewghMqwBLyRZUMuvU=</DigestValue></Reference><Reference URI="煙火.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>lW4dpJUrhEZAR7suo2t1C/xMP23og3bkp9Sov/r94iY=</DigestValue></Reference>
+        <Reference URI="mimetype"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>0/oCb84THKMagtI0Dy0KogEu92TegdesqRr/clXct1c=</DigestValue></Reference><Reference URI="META-INF/AIR/application.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>RGFMdNHrkfFMSRadkm/g/xsAstM9E8aB33NMS42Hjzc=</DigestValue></Reference><Reference URI="background.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>el4ir75u6GFmHE6RCdLGTKxhOW5+xx2H93QvVUUFNK8=</DigestValue></Reference><Reference URI="cancel.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>YXZ1LIpvE/LFmofZDQLf8FBBkdmc6TgCXESApv8vX04=</DigestValue></Reference><Reference URI="Click.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>cdz0uc8xqd/PcxjezGI1uFbbl1liLUibO0HjFFAmYAA=</DigestValue></Reference><Reference URI="Ok.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>mXH/SwiFuxDy6G6fvMiHW6w3I3lhQiS8sQViR5134SI=</DigestValue></Reference><Reference URI="小眼睛看名畫.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>7MScI8fhq2hJ16GRcZZd4DyoidHVUasAvvdafDkcxso=</DigestValue></Reference><Reference URI="煙火.mp3"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>lW4dpJUrhEZAR7suo2t1C/xMP23og3bkp9Sov/r94iY=</DigestValue></Reference>
       </Manifest>
     </Object>
     

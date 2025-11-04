@@ -49,7 +49,7 @@
 		}
 		private function Init():void
 		{	
-			//Mouse.hide();
+			Mouse.hide();
 			//removeEventListener(Event.ADDED_TO_STAGE, Init);
 			stage.nativeWindow.alwaysInFront = true;
 		    stage.align=StageAlign.TOP_LEFT;
